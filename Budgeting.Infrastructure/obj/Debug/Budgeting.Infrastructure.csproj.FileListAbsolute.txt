@@ -1,0 +1,7 @@
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\Budgeting\Budgeting.Infrastructure\bin\Debug\Budgeting.Infrastructure.dll
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\Budgeting\Budgeting.Infrastructure\bin\Debug\Budgeting.Infrastructure.pdb
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\Budgeting\Budgeting.Infrastructure\bin\Debug\Budgeting.Core.dll
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\Budgeting\Budgeting.Infrastructure\bin\Debug\Budgeting.Core.pdb
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\Budgeting\Budgeting.Infrastructure\obj\Debug\Budgeting.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\Budgeting\Budgeting.Infrastructure\obj\Debug\Budgeting.Infrastructure.dll
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\Budgeting\Budgeting.Infrastructure\obj\Debug\Budgeting.Infrastructure.pdb

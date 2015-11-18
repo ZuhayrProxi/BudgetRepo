@@ -1,0 +1,4 @@
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\Budgeting\Budgeting.Core\bin\Debug\Budgeting.Core.dll
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\Budgeting\Budgeting.Core\bin\Debug\Budgeting.Core.pdb
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\Budgeting\Budgeting.Core\obj\Debug\Budgeting.Core.dll
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\Budgeting\Budgeting.Core\obj\Debug\Budgeting.Core.pdb
