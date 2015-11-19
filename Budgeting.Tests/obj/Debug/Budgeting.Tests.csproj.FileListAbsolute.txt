@@ -20,3 +20,16 @@ C:\Users\mfarreed\Documents\Visual Studio 2013\Projects\Budgeting\Budgeting.Test
 C:\Users\mfarreed\Documents\Visual Studio 2013\Projects\Budgeting\Budgeting.Tests\obj\Debug\Budgeting.Tests.csprojResolveAssemblyReference.cache
 C:\Users\mfarreed\Documents\Visual Studio 2013\Projects\Budgeting\Budgeting.Tests\obj\Debug\Budgeting.Tests.dll
 C:\Users\mfarreed\Documents\Visual Studio 2013\Projects\Budgeting\Budgeting.Tests\obj\Debug\Budgeting.Tests.pdb
+C:\Users\mfarreed\Documents\Visual Studio 2013\Projects\Budgeting\Budgeting.Tests\bin\Debug\Budgeting.Tests.dll.config
+C:\Users\mfarreed\Documents\Visual Studio 2013\Projects\Budgeting\Budgeting.Tests\bin\Debug\EntityFramework.dll
+C:\Users\mfarreed\Documents\Visual Studio 2013\Projects\Budgeting\Budgeting.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mfarreed\Documents\Visual Studio 2013\Projects\Budgeting\Budgeting.Tests\bin\Debug\EntityFramework.Testing.dll
+C:\Users\mfarreed\Documents\Visual Studio 2013\Projects\Budgeting\Budgeting.Tests\bin\Debug\EntityFramework.Testing.Moq.dll
+C:\Users\mfarreed\Documents\Visual Studio 2013\Projects\Budgeting\Budgeting.Tests\bin\Debug\Moq.dll
+C:\Users\mfarreed\Documents\Visual Studio 2013\Projects\Budgeting\Budgeting.Tests\bin\Debug\EntityFramework.xml
+C:\Users\mfarreed\Documents\Visual Studio 2013\Projects\Budgeting\Budgeting.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mfarreed\Documents\Visual Studio 2013\Projects\Budgeting\Budgeting.Tests\bin\Debug\EntityFramework.Testing.pdb
+C:\Users\mfarreed\Documents\Visual Studio 2013\Projects\Budgeting\Budgeting.Tests\bin\Debug\EntityFramework.Testing.xml
+C:\Users\mfarreed\Documents\Visual Studio 2013\Projects\Budgeting\Budgeting.Tests\bin\Debug\EntityFramework.Testing.Moq.pdb
+C:\Users\mfarreed\Documents\Visual Studio 2013\Projects\Budgeting\Budgeting.Tests\bin\Debug\EntityFramework.Testing.Moq.xml
+C:\Users\mfarreed\Documents\Visual Studio 2013\Projects\Budgeting\Budgeting.Tests\bin\Debug\Moq.xml
