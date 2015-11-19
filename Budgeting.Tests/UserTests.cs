@@ -1,7 +1,6 @@
 ﻿using Budgeting.Core;
-using NUnit.Core;
-using NUnit.Framework;
 using System;
+using NUnit.Framework;
 
 namespace Budgeting.Tests
 {
@@ -9,7 +8,7 @@ namespace Budgeting.Tests
     public class UserTests
     {
         [Test]
-        [ExpectedException]
+        [ExpectedException(typeof(Exception))]
         public void Username_Invalid_Isnull()
         {
             //Arrange

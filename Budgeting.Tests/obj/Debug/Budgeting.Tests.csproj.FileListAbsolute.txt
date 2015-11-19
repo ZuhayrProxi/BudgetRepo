@@ -1,1 +1,11 @@
 C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\Budgeting\Budgeting.Tests\obj\Debug\Budgeting.Tests.csprojResolveAssemblyReference.cache
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\Budgeting\Budgeting.Tests\bin\Debug\Budgeting.Tests.dll
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\Budgeting\Budgeting.Tests\bin\Debug\Budgeting.Tests.pdb
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\Budgeting\Budgeting.Tests\bin\Debug\Budgeting.Core.dll
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\Budgeting\Budgeting.Tests\bin\Debug\Budgeting.Infrastructure.dll
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\Budgeting\Budgeting.Tests\bin\Debug\nunit.framework.dll
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\Budgeting\Budgeting.Tests\bin\Debug\Budgeting.Core.pdb
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\Budgeting\Budgeting.Tests\bin\Debug\Budgeting.Infrastructure.pdb
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\Budgeting\Budgeting.Tests\bin\Debug\nunit.framework.xml
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\Budgeting\Budgeting.Tests\obj\Debug\Budgeting.Tests.dll
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\Budgeting\Budgeting.Tests\obj\Debug\Budgeting.Tests.pdb
