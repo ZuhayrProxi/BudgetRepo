@@ -33,15 +33,39 @@ namespace Budgeting.Tests
         }
 
         [Test]
+        [ExpectedException(typeof(Exception))]
         public void Password_Invalid_Isnull()
         {
             //Arrange
-            User user = new User("")
+            User user = new User("SamplePass", "");
+
+            //Act
+            Validator.checkPasswordIsNull(user.Password);
+
+            //Assert
+
+        }
+
+        [Test]
+        public void Password_Valid_IsNotNull()
+        {
+            //Arrange
+            User user = new User("SamplePass", "pass");
+
+            //Act
+            Validator.checkPasswordIsNull(user.Password);
+
+            //Assert
+        }
+
+        [Test]
+        public void RegisterUser_Valid_RegistrationShould()
+        {
+            //Arrange
 
             //Act
 
             //Assert
-
         }
     }
 }

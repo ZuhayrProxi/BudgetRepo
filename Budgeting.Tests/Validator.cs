@@ -12,5 +12,13 @@ namespace Budgeting.Tests
             }
         }
 
+        public static void checkPasswordIsNull(string password)
+        {
+            if (password.Equals(null) || password.Equals(""))
+            {
+                throw new Exception("Password cannot be null");
+            }
+        }
+
     }
 }
