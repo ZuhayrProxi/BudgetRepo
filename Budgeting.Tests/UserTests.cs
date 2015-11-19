@@ -15,19 +15,44 @@ namespace Budgeting.Tests
             User user = new User("","123");
             
             //Act
-            Validator.checkUsernameIsNull(user.Username);
+            Validator.CheckUsernameIsNull(user.Username);
 
             //Assert
         }
 
         [Test]
-        public void Username_Invalid_IsNotNull()
+        public void Username_Valid_IsNotNull()
         {
             //Arrange
             User user = new User("SampleName", "123");
 
             //Act
-            Validator.checkUsernameIsNull(user.Username);
+            Validator.CheckUsernameIsNull(user.Username);
+
+            //Assert
+        }
+
+        [Test]
+        [ExpectedException(typeof(Exception))]
+        public void Password_Invalid_IsNull()
+        {
+            //Arrange
+            User user = new User("SampleName", "");
+
+            //Act
+            Validator.CheckUsernameIsNull(user.Password);
+
+            //Assert
+        }
+
+        [Test]
+        public void Password_Valid_IsNotNull()
+        {
+            //Arrange
+            User user = new User("SampleName", "123");
+
+            //Act
+            Validator.CheckPasswordIsNull(user.Password);
 
             //Assert
         }

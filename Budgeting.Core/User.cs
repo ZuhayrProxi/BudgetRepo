@@ -10,10 +10,10 @@ namespace Budgeting.Core
         public string Username { get; set; }
         public string Password { get; set; }
 
-        public User(string Username, string Password)
+        public User(string username, string password)
         {
-            this.Username = Username;
-            this.Password = Password;
+            Username = username;
+            Password = password;
         }
         
     }
