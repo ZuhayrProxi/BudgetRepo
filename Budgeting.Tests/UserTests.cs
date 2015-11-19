@@ -20,5 +20,17 @@ namespace Budgeting.Tests
             //Assert
 
         }
+
+        [Test]
+        public void Password_Invalid_Isnull()
+        {
+            //Arrange
+            User user = new User("")
+
+            //Act
+
+            //Assert
+
+        }
     }
 }
