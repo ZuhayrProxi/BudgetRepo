@@ -33,9 +33,12 @@ namespace Budgeting.Infrastructure
         public static User DeserializeXml(string filepath)
         {
             var serializer = new XmlSerializer(typeof(List<User>));
+
             FileStream myFileStream = new FileStream(filepath, FileMode.Open);
             XmlReader reader = XmlReader.Create(myFileStream);
+
             var user = (User)serializer.Deserialize(reader);
+
             myFileStream.Close();
 
             return user;
