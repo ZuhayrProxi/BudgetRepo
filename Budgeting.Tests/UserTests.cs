@@ -12,6 +12,7 @@ namespace Budgeting.Tests
     public class UserTests
     {
         private Mock<IUserRepository> mockRepository;
+        private Mock<IWalletRepository> mockWalletRepository;
 
         [TestFixtureSetUp]
         public void Setup() 
@@ -23,11 +24,14 @@ namespace Budgeting.Tests
                  .Returns(() => new User(It.IsAny<string>(), It.IsAny<string>()));
 
              mockRepository
-                 .Setup(t => t.Login(It.IsAny<string>(), It.IsAny<string>()))
+                 .Setup(t => t.Login (It.IsAny<string>(), It.IsAny<string>()))
                  .Returns(() => new User(It.IsAny<string>(), It.IsAny<string>()));
 
-             //mockWalletRepository = new Mock<IWalletRepository>();
+             mockWalletRepository = new Mock<IWalletRepository>();
 
+             mockWalletRepository
+                  .Setup(t => t.createWallet (It.IsAny<string>()))
+                  .Returns(() => new Wallet(It.IsAny<string>()));
 
         }
 
@@ -119,7 +123,7 @@ namespace Budgeting.Tests
         public void AddNewWallet_Valid_WalletShould()
         {
             //arrange
-            WalletService walletService = new WalletService(mockRepository.Object);
+            WalletService walletService = new WalletService(mockWalletRepository.Object);
 
             //act
             var Result = walletService.createWallet("WalletName");

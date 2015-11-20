@@ -10,7 +10,5 @@ namespace Budgeting.Core.Interfaces
         Model.User Register(string user, string password);
 
         Model.User Login(string user, string password);
-
-        Model.Wallet createWallet(string walletName);
     }
 }
