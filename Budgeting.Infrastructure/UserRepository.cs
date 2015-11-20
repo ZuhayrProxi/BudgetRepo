@@ -6,7 +6,7 @@ using System.Xml.Serialization;
 using Budgeting.Core.Interfaces;
 using Budgeting.Core.Model;
 
-namespace Budgeting.Core.Services
+namespace Budgeting.Infrastructure
 {
     public class UserRepository : IUserRepository
     {

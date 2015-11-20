@@ -68,7 +68,6 @@ namespace Budgeting.Tests
 
             //Assert
             mockRepository.Verify(x => x.Login(It.IsAny<string>(), It.IsAny<string>()));
-            //mockRepository.VerifyAll();
         }
 
         [Test]
