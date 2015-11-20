@@ -24,5 +24,15 @@ namespace Budgeting.Core.Services
 
             return NewUser;
         }
+
+        public Model.User Login(string user, string password)
+        {
+            Validator.checkUsernameIsNull(user);
+            Validator.checkPasswordIsNull(password);
+
+            Model.User UserLogin = userRepository.Login(user, password);
+
+            return UserLogin;
+        }
     }
 }

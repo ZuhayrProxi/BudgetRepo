@@ -15,6 +15,5 @@ namespace Budgeting.Core.Model
             this.Username = Username;
             this.Password = Password;
         }
-        
     }
 }

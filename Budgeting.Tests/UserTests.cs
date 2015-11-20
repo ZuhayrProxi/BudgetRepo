@@ -21,6 +21,10 @@ namespace Budgeting.Tests
              mockRepository
                  .Setup(t => t.Register(It.IsAny<string>(), It.IsAny<string>()))
                  .Returns(() => new User(It.IsAny<string>(), It.IsAny<string>()));
+
+             mockRepository
+                 .Setup(t => t.Login(It.IsAny<string>(), It.IsAny<string>()))
+                 .Returns(() => new User(It.IsAny<string>(), It.IsAny<string>()));
         }
 
         [Test]
@@ -52,37 +56,11 @@ namespace Budgeting.Tests
             Assert.IsNotNull(Result);
         }
 
-        //[Test]
-        //[ExpectedException(typeof(Exception))]
-        //public void Password_Invalid_Isnull()
-        //{
-        //    //Arrange
-        //    User user = new User("SamplePass", "");
-
-        //    //Act
-        //    Validator.checkPasswordIsNull(user.Password);
-
-        //    //Assert
-
-        //}
-
-        //[Test]
-        //public void Password_Valid_IsNotNull()
-        //{
-        //    //Arrange
-        //    User user = new User("SamplePass", "pass");
-
-        //    //Act
-        //    Validator.checkPasswordIsNull(user.Password);
-
-        //    //Assert
-        //}
-
         [Test]
         public void RegisterUser_Valid_RegistrationShould()
         {
             //Arrange
-            
+
             UserService userService = new UserService(mockRepository.Object);
 
             //Act
@@ -90,6 +68,48 @@ namespace Budgeting.Tests
 
             //Assert
             mockRepository.VerifyAll();
+        }
+
+        [Test]
+        [ExpectedException]
+        public void LoginUser_Invalid_IsNull()
+        {
+            //Arrange
+            UserService userService = new UserService(mockRepository.Object);
+            User Result;
+
+            //Act
+            Result = userService.Login("", "loginPass");
+
+            //Assert
+        }
+
+        [Test]
+        public void LoginUser_Valid_IsNotNull()
+        {
+            //Arrange
+            UserService userService = new UserService(mockRepository.Object);
+            User Result;
+
+            //Act
+            Result = userService.Login("LoginUser", "loginPass");
+
+            //Assert
+            Assert.IsNotNull(Result);
+        }
+
+        [Test]
+        public void LoginUser_Valid_LoginShould()
+        {
+            //Arrange
+
+            UserService userService = new UserService(mockRepository.Object);
+
+            //Act
+            var Result = userService.Login("LoginUser", "loginPass");
+
+            //Assert
+            mockRepository.Verify(x => x.Login(It.IsAny<string>(), It.IsAny<string>()));
         }
     }
 }
