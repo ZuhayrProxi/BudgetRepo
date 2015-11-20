@@ -9,11 +9,12 @@ namespace Budgeting.Core.Model
     {
         public string Username { get; set; }
         public string Password { get; set; }
+        public Guid id { get; set; }
 
-        public User(string Username, string Password)
+        public User(string username, string password)
         {
-            this.Username = Username;
-            this.Password = Password;
+            this.Username = username;
+            this.Password = password;
         }
     }
 }
