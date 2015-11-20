@@ -10,6 +10,11 @@ namespace Budgeting.Core.Model
         public string Username { get; set; }
         public string Password { get; set; }
 
+        public User()
+        {
+                
+        }
+
         public User(string Username, string Password)
         {
             this.Username = Username;

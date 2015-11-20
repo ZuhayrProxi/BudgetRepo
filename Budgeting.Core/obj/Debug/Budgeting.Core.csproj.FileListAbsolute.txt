@@ -7,3 +7,8 @@ C:\Users\mfarreed\Documents\Visual Studio 2013\Projects\Budgeting\Budgeting.Core
 C:\Users\mfarreed\Documents\Visual Studio 2013\Projects\Budgeting\Budgeting.Core\obj\Debug\Budgeting.Core.csprojResolveAssemblyReference.cache
 C:\Users\mfarreed\Documents\Visual Studio 2013\Projects\Budgeting\Budgeting.Core\obj\Debug\Budgeting.Core.dll
 C:\Users\mfarreed\Documents\Visual Studio 2013\Projects\Budgeting\Budgeting.Core\obj\Debug\Budgeting.Core.pdb
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\BudgetingRepo\Budgeting.Core\bin\Debug\Budgeting.Core.dll
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\BudgetingRepo\Budgeting.Core\bin\Debug\Budgeting.Core.pdb
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\BudgetingRepo\Budgeting.Core\obj\Debug\Budgeting.Core.csprojResolveAssemblyReference.cache
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\BudgetingRepo\Budgeting.Core\obj\Debug\Budgeting.Core.dll
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\BudgetingRepo\Budgeting.Core\obj\Debug\Budgeting.Core.pdb

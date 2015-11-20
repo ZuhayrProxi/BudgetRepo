@@ -12,3 +12,10 @@ C:\Users\mfarreed\Documents\Visual Studio 2013\Projects\Budgeting\Budgeting.Infr
 C:\Users\mfarreed\Documents\Visual Studio 2013\Projects\Budgeting\Budgeting.Infrastructure\obj\Debug\Budgeting.Infrastructure.csprojResolveAssemblyReference.cache
 C:\Users\mfarreed\Documents\Visual Studio 2013\Projects\Budgeting\Budgeting.Infrastructure\obj\Debug\Budgeting.Infrastructure.dll
 C:\Users\mfarreed\Documents\Visual Studio 2013\Projects\Budgeting\Budgeting.Infrastructure\obj\Debug\Budgeting.Infrastructure.pdb
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\BudgetingRepo\Budgeting.Infrastructure\bin\Debug\Budgeting.Infrastructure.dll
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\BudgetingRepo\Budgeting.Infrastructure\bin\Debug\Budgeting.Infrastructure.pdb
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\BudgetingRepo\Budgeting.Infrastructure\bin\Debug\Budgeting.Core.dll
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\BudgetingRepo\Budgeting.Infrastructure\bin\Debug\Budgeting.Core.pdb
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\BudgetingRepo\Budgeting.Infrastructure\obj\Debug\Budgeting.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\BudgetingRepo\Budgeting.Infrastructure\obj\Debug\Budgeting.Infrastructure.dll
+C:\Users\vbhujan\Documents\Visual Studio 2015\Projects\BudgetingRepo\Budgeting.Infrastructure\obj\Debug\Budgeting.Infrastructure.pdb
