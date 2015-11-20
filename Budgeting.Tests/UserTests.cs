@@ -71,7 +71,7 @@ namespace Budgeting.Tests
             var Result = userService.RegisterUser("SampleUser", "123");
 
             //Assert
-            mockRepository.VerifyAll();
+            mockRepository.Verify(x => x.Login(It.IsAny<string>(), It.IsAny<string>()));
         }
 
         [Test]

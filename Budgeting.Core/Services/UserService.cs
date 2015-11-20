@@ -19,10 +19,11 @@ namespace Budgeting.Core.Services
         {
             Validator.checkUsernameIsNull(user);
             Validator.checkPasswordIsNull(password);
+            
 
-            Model.User NewUser = userRepository.Register(user, password);
+            Model.User newUser = userRepository.Register(user, password);
 
-            return NewUser;
+            return newUser;
         }
 
         public Model.User Login(string user, string password)
