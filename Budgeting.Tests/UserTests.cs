@@ -1,10 +1,10 @@
 ﻿using Budgeting.Core.Model;
 using Budgeting.Core;
+using Budgeting.Core.Interfaces;
 using Budgeting.Core.Services;
 using System;
 using NUnit.Framework;
 using Moq;
-using Budgeting.Core.Interfaces;
 
 namespace Budgeting.Tests
 {
@@ -25,6 +25,10 @@ namespace Budgeting.Tests
              mockRepository
                  .Setup(t => t.Login(It.IsAny<string>(), It.IsAny<string>()))
                  .Returns(() => new User(It.IsAny<string>(), It.IsAny<string>()));
+
+             //mockWalletRepository = new Mock<IWalletRepository>();
+
+
         }
 
         [Test]
@@ -102,7 +106,6 @@ namespace Budgeting.Tests
         public void LoginUser_Valid_LoginShould()
         {
             //Arrange
-
             UserService userService = new UserService(mockRepository.Object);
 
             //Act
@@ -110,6 +113,19 @@ namespace Budgeting.Tests
 
             //Assert
             mockRepository.Verify(x => x.Login(It.IsAny<string>(), It.IsAny<string>()));
+        }
+
+        [Test]
+        public void AddNewWallet_Valid_WalletShould()
+        {
+            //arrange
+            WalletService walletService = new WalletService(mockRepository.Object);
+
+            //act
+            var Result = walletService.createWallet("WalletName");
+
+            //assert
+            //mockRepository.Verify(x => x. );
         }
     }
 }
