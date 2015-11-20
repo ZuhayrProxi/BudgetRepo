@@ -44,6 +44,8 @@
     <Compile Include="Services\UserService.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Services\Validator.cs" />
+    <Compile Include="Model\Wallet.cs" />
+    <Compile Include="Services\WalletService.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
