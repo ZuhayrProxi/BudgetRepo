@@ -20,5 +20,29 @@ namespace Budgeting.Core.Services
             }
         }
 
+
+        public static void checkWalletSalaryIsNull(double salary)
+        {
+            if (salary == null || salary < 0)
+            {
+                throw new Exception("Salary cannot be null or negative.");  
+            }
+        }
+
+        public static void checkWalletIdIsNull(Guid id)
+        {
+            if (id == null || id == Guid.Empty )
+            {
+                throw new Exception("User ID cannot be null");  
+            }
+        }
+
+        public static void checkWalletNameIsNull(string walletName)
+        {
+            if (walletName == null || walletName.Equals(""))
+            {
+                throw new Exception("Wallet Name cannot be null");
+            }
+        }
     }
 }

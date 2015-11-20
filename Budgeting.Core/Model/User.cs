@@ -14,8 +14,6 @@ namespace Budgeting.Core.Model
         public string Password { get; set; }
         public Guid id { get; set; }
 
-        public User(string username, string password);
-
         public User()
         {
 

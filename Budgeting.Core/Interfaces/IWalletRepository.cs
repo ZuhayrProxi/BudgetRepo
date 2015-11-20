@@ -7,6 +7,6 @@ namespace Budgeting.Core.Interfaces
 {
     public interface IWalletRepository
     {
-        Model.Wallet createWallet(string walletName);
+        Model.Wallet createWallet(Guid id, string walletName, double salary);
     }
 }

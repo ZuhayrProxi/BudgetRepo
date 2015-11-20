@@ -17,9 +17,15 @@ namespace Budgeting.Core.Services
             this.walletRepository = walletRepository;
         }
 
-        public Model.Wallet createWallet(string walletName)
+        public Model.Wallet createWallet( Guid id, string walletName, double salary)
         {
-            Model.Wallet newWallet = walletRepository.createWallet(walletName);
+            Validator.checkWalletIdIsNull(id);
+
+            Validator.checkWalletNameIsNull(walletName);
+
+            Validator.checkWalletSalaryIsNull(salary);
+
+            Model.Wallet newWallet = walletRepository.createWallet(id, walletName, salary);
 
             return newWallet;
         }
